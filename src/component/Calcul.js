@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Calc.css";
 export default function Calcul() {
 const [exp,setExp]=useState('');
 
