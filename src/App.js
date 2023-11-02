@@ -1,9 +1,12 @@
 import './App.css';
-import Calcul from './Component/Calcul';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Form from './Component/Form';
 function App(){
   return(
   <div className="App">
-    <Calcul/>
+    <Form/>
+    <br />
+   
   </div>
   );
   
